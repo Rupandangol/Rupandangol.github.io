@@ -1,0 +1,94 @@
+body{
+    background-image: url('../image/kites.jpg');
+}
+
+#container{
+    color: blue;
+    margin: 100px auto;
+    text-align: center;
+   width: 1000px;
+    height: 400px;
+    font-size: 30px;
+    /*font-family: 'Vibes', cursive;*/
+    font-family: 'Cute Font', cursive;
+}
+
+#countDown{
+    color: black;
+        font-size: 60px;
+
+
+}
+#CountDownBlock{
+    margin-left: 120px;
+    width: 780px;
+    height: 80px;
+    background-color: #388E3C;
+}
+
+
+.button {
+    border-radius: 4px;
+    background-color: #6c5ce7;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#custom{
+    border-radius: 10px;
+    background-color: #6c5ce7;
+    margin-right: 700px;
+}
+
+@media screen and (max-width: 1009px) {
+    #container{
+        margin-top: 10px;
+        width: 350px;
+        height: 500px;
+    }
+    #countDown{
+        font-size: 60px;
+    }
+    #CountDownBlock{
+        margin-left: 20px;
+        width: 310px;
+        height: 230px;
+        /*background-color:  #74b9ff;*/
+        background-image: linear-gradient(to right,whitesmoke,#74b9ff);
+
+    }
+    #custom{
+        background-color: whitesmoke;
+    }
+}

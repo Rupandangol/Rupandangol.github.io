@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                         <link rel="stylesheet" href="../css/tipCalculator.css">
+             <title>Document</title>
+</head>
+<body style="background-image: url('../image/paper.jpg')">
+<div id="myBody">
+<br>
+    <h1>Tips Calulator</h1>
+    <hr>
+    <div>
+        <label for="">how much was your bill?</label><br>
+        <input name="bill_amount" id="bill_amount" type="number">
+</div>
+<div>
+    <label for="">How much was your Service</label><br>
+    <select name="service" id="service">
+        <option value="30">30%-Outstanding</option>
+        <option value="15">15%-It was OK</option>
+    <option value="5">5%-Bad</option>
+    </select>
+</div>
+<div>
+    <label for="">how many people are sharing the bill with</label>
+   <br>
+    <input name="sharing" id="sharing" type="number">
+</div><br>
+<div>
+    <button id="calculateBtn" type="button" class="btn btn-warning">Calculate</button>
+</div>
+<br>
+<div id="here">
+    <span id="calculationHere"></span>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="../js/tipCalculator.js"></script>
+</body>
+</html>

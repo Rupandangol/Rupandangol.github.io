@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+                         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                            <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Racing+Sans+One&display=swap" rel="stylesheet">
+                            <link href="https://fonts.googleapis.com/css?family=Barriecito|Rock+Salt|Unlock&display=swap" rel="stylesheet">
+                         <link rel="stylesheet" href="../css/style.css">
+
+             <title>Tic Tac Toe</title>
+</head>
+<body style="background-image: url('../image/light.jpg')" onload="startGame()">
+<div id="MyClock">
+<h2 id="timeHeader">Time</h2>
+<span id="clockHere"></span>
+</div>
+<div style="background-image:url('../image/paper.jpg');" class="myBody">
+<br><br>
+<h1 id="header">TIC TAC TOE</h1>
+<div id="message">Messages will Go here</div>
+<table class="myTable" border="1">
+    <tr>
+        <td id="s1" class="square" onclick="nextMove(this);"></td>
+        <td id="s2" class="square" onclick="nextMove(this);"></td>
+        <td id="s3" class="square" onclick="nextMove(this);"></td>
+    </tr>
+    <tr>
+            <td id="s4" class="square" onclick="nextMove(this);"></td>
+            <td id="s5" class="square" onclick="nextMove(this);"></td>
+            <td id="s6" class="square" onclick="nextMove(this);"></td>
+        </tr>
+        <tr>
+                <td id="s7" class="square" onclick="nextMove(this);"></td>
+                <td id="s8" class="square" onclick="nextMove(this);"></td>
+                <td id="s9" class="square" onclick="nextMove(this);"></td>
+            </tr>
+</table>
+<br>
+
+<a id="startOver" class="btn btn-info" href="javascript:startGame()"><i class="fa fa-history fa-2x"></i></a>
+</div>
+
+
+
+<script src="../js/js.js"></script>
+<script src="../js/clock.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+#myBody{
+    width: 350px;
+    height:  500px;
+    text-align: center;
+    /*padding: 10px;*/
+    font-family: 'Mansalva', cursive;
+    font-size: 20px;
+    margin: 120px auto;
+    border: 2px solid black;
+color: whitesmoke;
+    border-radius: 10px;
+    background-image: url("../image/light.jpg");
+}
+h1{
+
+    /*background-color: blue;*/
+}
+#here{
+
+}
+#calculateBtn{
+    width: 200px;
+}
