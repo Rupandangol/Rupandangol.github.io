@@ -1,0 +1,14 @@
+.xBtn:hover{
+    cursor: pointer;
+}
+#list{
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 0.75s ease;
+
+}
+
+
+.fdsa{
+    background-color: red;
+}

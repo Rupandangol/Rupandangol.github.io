@@ -70,9 +70,12 @@ body{
     background-color: #6c5ce7;
     margin-right: 700px;
 }
-
+#Text_item{
+    color:green;
+}
 @media screen and (max-width: 1009px) {
     #container{
+        color:black;
         margin-top: 10px;
         width: 350px;
         height: 500px;
@@ -90,5 +93,9 @@ body{
     }
     #custom{
         background-color: whitesmoke;
+    }
+    #Text_item{
+        color: black;
+        font-size: 40px;
     }
 }
