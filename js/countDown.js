@@ -10,7 +10,7 @@ $(function () {
     var fun;
     var t;
 
-    Counter('2019','Oct','26',0,0,0,'Dashain Starts In','Happy Tihar',Counter('2019','Oct','29',0,0,0,'Happy Tihar','Ended'));
+    Counter('2019','Oct','26',0,0,0,'Tihar Starts In','Happy Tihar',Counter('2019','Oct','29',0,0,0,'Happy Tihar','Ended'));
 
 
     function Counter(year, mon,date,hr,min,sec,before,after,fun) {
