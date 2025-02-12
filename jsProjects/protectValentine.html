@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Protected</title>
+    <link rel="stylesheet" href="../css/protectValentine.css">
+</head>
+
+<body>
+    <div id="lock-screen">
+        <h1>Enter the password to continue</h1>
+        <button id="clueButton">Clue?</button>
+
+        <!-- Clue Message (hidden initially) -->
+        <div id="clueMessage" class="hidden">
+            <p>Your nickname 😉.</p>
+        </div><br>
+        <input type="text" id="password" autocomplete="off" placeholder="Enter password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message"></p>
+    </div>
+    <div id="gif-container" style="display:none;">
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTVxeXl6MW11bzZzMml6MzJpeGlhZjlubGFid3RnaXZ1cDBndTV4ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OSOOHw7N9gb3R06OU7/giphy.gif"
+            alt="Congratulations GIF" id="gif">
+    </div>
+
+    <div id="gif-container2" style="display:none;">
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMW02dzQydzZ3bDd1czVsYjFtMXBpcnRsaGg1a242aWltd3ZxYjNjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yoJC2GnSClbPOkV0eA/giphy.gif"
+            alt="Congratulations GIF" id="gif">
+        <h1>Yay! I'm so happy! 💖</h1>
+    </div>
+    <div id="content" style="display:none;">
+        <h1>Will you be my Valentine?</h1>
+        <div class="buttons-container">
+            <button id="yes-btn" onclick="yesClicked()">Yes</button>
+            <button id="no-btn" onclick="noClicked()">No</button>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <script src="../js/protectValentine.js"></script>
+</body>
+
+</html>
